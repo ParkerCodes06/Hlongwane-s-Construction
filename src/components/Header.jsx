@@ -99,33 +99,6 @@ export default function Header() {
           transition: all 0.3s ease; backdrop-filter: blur(4px);
         }
         .mobile-overlay.open { opacity: 1; visibility: visible; }
-        @media (max-width: 768px) {
-          .menu-toggle { display: flex; }
-          .main-nav {
-            position: fixed; top: 70px; right: 0;
-            width: 280px; height: calc(100vh - 70px);
-            background: #fff; border-left: 1px solid rgba(0,0,0,0.06);
-            transform: translateX(100%);
-            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            overflow-y: auto; z-index: 999;
-            box-shadow: -10px 0 40px rgba(0,0,0,0.1);
-          }
-          .main-nav.open { transform: translateX(0); }
-          .nav-list { flex-direction: column; padding: 20px 0; }
-          .nav-link {
-            padding: 14px 24px; width: 100%;
-            justify-content: space-between;
-          }
-          .nav-link::after { display: none; }
-          .sub-menu {
-            position: static; opacity: 1; visibility: visible;
-            transform: none; box-shadow: none; border: none;
-            padding-left: 20px; display: none;
-            background: #fafafa;
-          }
-          .nav-list > li.open .sub-menu { display: block; }
-          .sub-menu a { padding: 14px 20px; }
-        }
       `}</style>
 
       <div className="mobile-overlay" onClick={() => setMobileOpen(false)} />

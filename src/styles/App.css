@@ -1281,27 +1281,3 @@ p { margin-bottom: 1rem; color: var(--sc-text-body); }
   color: var(--sc-accent);
 }
 
-@media (max-width: 768px) {
-  body { font-size: 17px; }
-  .section { padding: 60px 0; }
-  .page-hero { padding: 80px 0 50px; }
-  #scroll-top { right: 30px; bottom: 24px; }
-  .whatsapp-btn { bottom: 24px; right: 24px; width: 54px; height: 54px; }
-  .step-dot + .step-dot::before { width: 20px; }
-  .step-label { display: none; }
-  .estimate-amount { font-size: 1.3rem; }
-  .estimate-actions { flex-direction: column; }
-  .quote-form-actions { flex-direction: column; }
-  .lead-form-actions { flex-direction: column; }
-  .form-group input,
-  .form-group select,
-  .form-group textarea { padding: 16px 18px; }
-  .quote-form input[type="number"],
-  .quote-form select { padding: 14px 14px; }
-  .lead-form input,
-  .lead-form textarea { padding: 14px 14px; }
-  .footer-social a { width: 44px; height: 44px; }
-  .testimonials-section { padding: 60px 0; }
-  .cta-section { padding: 60px 0; }
-  .section-header { margin-bottom: 32px; }
-}
