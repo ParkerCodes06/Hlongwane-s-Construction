@@ -70,11 +70,11 @@ export default function HeroSlider() {
         .slide-content .eyebrow { color: rgba(255,255,255,0.6); }
         .slide-content h1 {
           color: #fff; margin-bottom: 20px;
-          font-size: clamp(2.2rem, 5vw, 3.5rem);
+          font-size: clamp(2.4rem, 5vw, 3.5rem);
         }
         .slide-content p {
           color: rgba(255,255,255,0.8); margin-bottom: 36px;
-          font-size: 1.05rem; max-width: 560px; margin-left: auto; margin-right: auto;
+          font-size: 1.15rem; max-width: 560px; margin-left: auto; margin-right: auto;
         }
         .slider-nav {
           position: absolute; bottom: 40px; left: 50%;

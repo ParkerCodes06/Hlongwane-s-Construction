@@ -47,15 +47,15 @@ export default function Header() {
         }
         .logo-text {
           font-family: var(--font-heading);
-          font-size: 17px; font-weight: 600; color: #111;
+          font-size: 19px; font-weight: 600; color: #111;
           letter-spacing: 0.3px; line-height: 1.2;
         }
         .nav-list { display: flex; align-items: center; gap: 0; }
         .nav-list > li { position: relative; }
         .nav-link {
           display: flex; align-items: center; gap: 4px;
-          padding: 10px 18px; font-size: 12px; font-weight: 600;
-          text-transform: uppercase; letter-spacing: 1px;
+          padding: 10px 14px; font-size: 14px; font-weight: 600;
+          text-transform: uppercase; letter-spacing: 0.5px;
           color: #111; transition: color 0.3s ease;
           position: relative;
         }
@@ -79,7 +79,7 @@ export default function Header() {
           opacity: 1; visibility: visible; transform: translateY(0);
         }
         .sub-menu a {
-          display: block; padding: 10px 20px; font-size: 12px;
+          display: block; padding: 10px 20px; font-size: 14px;
           color: #333; transition: all 0.2s ease;
           text-transform: uppercase; letter-spacing: 0.5px;
         }
