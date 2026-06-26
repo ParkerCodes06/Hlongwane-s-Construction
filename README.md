@@ -1,16 +1,59 @@
-# React + Vite
+# Hlongwane's Construction Company PTY LTD
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Corporate website for a South African construction company specialising in residential and commercial building, foundations, electrical work, carports, and ceilings.
 
-Currently, two official plugins are available:
+Built with React 19, Vite 8, React Router 7, and Framer Motion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Quick Start
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Open [http://localhost:5173](http://localhost:5173).
 
-## Expanding the Oxlint configuration
+## Build
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm run build
+npm run preview
+```
+
+## Lint
+
+```bash
+npm run lint
+```
+
+## Structure
+
+```
+src/
+  components/     Reusable UI components (Header, Footer, HeroSlider, etc.)
+  pages/          Route pages (Home, About, Portfolio, Contact, Quote)
+  pages/services/ Service detail pages (Buildings, Foundations, etc.)
+  data/           Static content (projects, pricing engine)
+  styles/         Global styles (App.css)
+```
+
+## Features
+
+- **Quote Calculator** — Multi-step interactive estimator for all 5 services with real-time pricing based on Gauteng 2026 market rates
+- **Portfolio** — Filterable project gallery with lightbox viewer
+- **Contact Form** — Lead capture with file upload for drawings/plans
+- **WhatsApp Integration** — One-tap chat button
+- **Scroll Animations** — Framer Motion page transitions and scroll-triggered reveals
+- **Desktop-First Viewport** — Renders at 900px viewport on all devices for consistent desktop layout
+
+## Tech Stack
+
+| Package | Version |
+|---|---|
+| react | ^19.2.7 |
+| react-dom | ^19.2.7 |
+| react-router-dom | ^7.18.0 |
+| framer-motion | ^12.42.0 |
+| lucide-react | ^1.21.0 |
+| vite | ^8.1.0 |
+| oxlint | ^1.69.0 |
