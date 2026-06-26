@@ -1283,25 +1283,16 @@ p { margin-bottom: 1rem; color: var(--sc-text-body); }
 
 @media (max-width: 768px) {
   body { font-size: 17px; }
-  .section { padding: 48px 0; }
+  .section { padding: 60px 0; }
   .page-hero { padding: 80px 0 50px; }
-  .service-grid > * {
-    flex: 0 1 100%;
-    min-width: 0;
-  }
-  .pillars-grid { grid-template-columns: repeat(2, 1fr); }
-  .portfolio-filter { gap: 6px; }
-  .filter-btn { padding: 12px 16px; font-size: 11px; }
   #scroll-top { right: 30px; bottom: 24px; }
   .whatsapp-btn { bottom: 24px; right: 24px; width: 54px; height: 54px; }
-  .service-select-grid { grid-template-columns: repeat(2, 1fr); }
   .step-dot + .step-dot::before { width: 20px; }
   .step-label { display: none; }
   .estimate-amount { font-size: 1.3rem; }
   .estimate-actions { flex-direction: column; }
   .quote-form-actions { flex-direction: column; }
   .lead-form-actions { flex-direction: column; }
-
   .form-group input,
   .form-group select,
   .form-group textarea { padding: 16px 18px; }
@@ -1310,39 +1301,7 @@ p { margin-bottom: 1rem; color: var(--sc-text-body); }
   .lead-form input,
   .lead-form textarea { padding: 14px 14px; }
   .footer-social a { width: 44px; height: 44px; }
-  .testimonials-section { padding: 48px 0; }
-  .cta-section { padding: 48px 0; }
+  .testimonials-section { padding: 60px 0; }
+  .cta-section { padding: 60px 0; }
   .section-header { margin-bottom: 32px; }
-}
-
-@media (max-width: 480px) {
-  body { font-size: 16px; }
-  .section { padding: 36px 0; }
-  .page-hero { padding: 60px 0 36px; }
-  .page-hero h1 { font-size: 1.8rem; }
-  .page-hero p { font-size: 0.9rem; }
-  .service-grid > * {
-    flex: 0 1 100%;
-  }
-  .pillars-grid { grid-template-columns: 1fr; }
-  h1 { font-size: 1.8rem; }
-  h2 { font-size: 1.5rem; }
-  .service-select-grid { grid-template-columns: 1fr; }
-  .btn-outline,
-  .btn-outline-light,
-  .btn-gold { padding: 12px 24px; font-size: 11px; }
-  .service-card { padding: 32px 20px 28px; }
-  .service-card p { font-size: 0.8rem; }
-  .project-card img { height: 220px; }
-  .stats-grid { gap: 24px; }
-  .section-header { margin-bottom: 24px; }
-  .section-header p { font-size: 0.9rem; }
-  .submit-btn { padding: 14px 28px; width: 100%; display: flex; justify-content: center; }
-  .file-upload { padding: 20px 16px; }
-  .file-upload p { font-size: 12px; }
-  .footer-contact a { word-break: break-all; font-size: 0.8rem; }
-  .estimate-amount { font-size: 1.1rem; }
-  .estimate-breakdown { padding: 16px; }
-  .estimate-breakdown li { flex-direction: column; gap: 4px; }
-  .estimate-breakdown li span:last-child { align-self: flex-end; }
 }

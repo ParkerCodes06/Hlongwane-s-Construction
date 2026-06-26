@@ -111,17 +111,11 @@ export default function HeroSlider() {
         .slider-arrow.prev { left: 24px; }
         .slider-arrow.next { right: 24px; }
         @media (max-width: 768px) {
-          .hero-slider-section { height: 65vh; min-height: 450px; }
+          .hero-slider-section { height: 65vh; min-height: 400px; }
           .slider-arrow { width: 40px; height: 40px; }
           .slider-arrow.prev { left: 8px; }
           .slider-arrow.next { right: 8px; }
           .slide-content h1 { font-size: 2rem; }
-        }
-        @media (max-width: 480px) {
-          .hero-slider-section { height: 55vh; min-height: 320px; }
-          .slide-content h1 { font-size: 1.6rem; }
-          .slide-content p { font-size: 0.9rem; margin-bottom: 24px; }
-          .slide-content .btn-outline { padding: 12px 28px; font-size: 11px; }
         }
       `}</style>
 
